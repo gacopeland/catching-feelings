@@ -14,11 +14,12 @@ function preload(){
 }
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
-    centerX = windowWidth / 2;
-    centerY = windowHeight / 2;
+    createCanvas(1000,1000
+    );
+    centerX = 1000/ 2;
+    centerY = 1000/ 2;
     let screenPct = min(height, width) / 2000;
-    fontSize = screenPct * 150;
+    fontSize = screenPct * 140;
     radius1 = screenPct * 300;
     radius2 = screenPct * 500;
     textFont(myFont);
